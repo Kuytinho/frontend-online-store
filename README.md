@@ -32,132 +32,11 @@
   
 </details>
 
-<details>
-  <summary><strong>⌨️ Durante o desenvolvimento</strong></summary><br />
-
-  - Faça `commits` das alterações que você fizer no código regularmente
-
-  - Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-  - Os comandos que você utilizará com mais frequência são:
-    1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-    2. `git add` _(para adicionar arquivos ao stage do Git)_
-    3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-    4. `git push -u origin nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-    5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-
-</details>
-
-<details>
-  <summary><strong>🤝 Depois de terminar o desenvolvimento (opcional)</strong></summary><br />
-
-  Para sinalizar que o seu projeto está pronto para o _"Code Review"_, faça o seguinte:
-
-  - Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
-
-    - No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-
-    - No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-
-    - No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-022-a`.
-
-  Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
-</details>
-
-<details>
-  <summary><strong>🕵🏿 Revisando um pull request</strong></summary><br />
-
-  Use o conteúdo sobre [Code Review](https://app.betrybe.com/course/real-life-engineer/code-review) para te ajudar a revisar os _Pull Requests_.
-
-</details>
-
-<details>
-  <summary><strong>🎛 Linter</strong></summary><br />
-
-O [ESLint](https://eslint.org/) será utilizado para fazer a análise estática do seu código garantindo a sua qualidade de forma a tê-lo mais legível, de mais fácil manutenção e seguindo as boas práticas de desenvolvimento. 
-  
-  Para rodar o linter localmente no seu projeto, execute o comando abaixo:
-
-  ```bash
-  npm run lint
-  ```
-
-  Você pode instalar o plugin do `ESLint` no `VSCode`. Para isso, bastar ir em extensions e baixar o [plugin `ESLint`](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) e instalá-lo.
-
-Você pode consultar nosso contúdo sobre sobre [`ESLint`](https://app.betrybe.com/course/real-life-engineer/eslint) caso ainda tenha alguma dúvida.
-
- :warning: **IMPORTANTE!** :warning:  Pull Requests com **erros de linter não serão avaliados**. Resolva os erros de linter antes de finalizar o desenvolvimento
-  
-</details>
-  
-<details>
-  <summary><strong>:busts_in_silhouette: Trello como ferramenta Kanban</strong></summary><br />
-
-  Uma forma para seu grupo organizar as atividades e dividir as tarefas é através de um modelo de Kanban. A Trybe disponibilizou no [Trello](https://trello.com/) um [board pré-configurado](https://trello.com/b/9mjukxCq/frontend-online-store) para que você possa duplicá-lo para usar com seu grupo.
-
-  ![img](trello.gif)
-
-  Siga os passos abaixo para duplicar o board:
-
-  - Acesse o [board](https://trello.com/b/9mjukxCq/frontend-online-store);
-  - Abra o menu no canto superior direito;
-  - Selecione "copiar quadros";
-  - Defina o time do seu grupo e um título para o board;
-  - Clique em `criar`;
-  - Personalize seu novo Kanban.
-</details>
-
-<details>
-  <summary><strong>🛠 Testes</strong></summary><br />
-
- A [React Testing Library (RTL)](https://testing-library.com/docs/react-testing-library/intro) será utilizada para execução dos testes.
-
- Na descrição dos requisitos será pedido a adição de atributos `data-testid` nos elementos _HTML_. 
-  
- Para deixar evidente esta configuração veja o exemplo: 
-  - se o requisito pedido for _"crie um botão e adicione o id de teste (ou `data-testid`) com o valor `my-action`"_, você pode escrever:
-
-  ```html
-  <button data-testid="my-action" ></button>
-  ```
-
-  ou
-
-  ```html
-  <a data-testid="my-action"><a/>
-  ```
-
-O atributo `data-testid="my-action"` servirá para que a React Testing Library (RTL) identifique o elemento. Desta forma será possível realizar testes unitários focados no comportamento da aplicação. 
-    
-  Você pode executar todos os testes unitários localmente para verificar a solução proposta com o comando abaixo:
-
-  ```bash
-  npm test
-  ```
-
-  Você pode executar os testes para um único requisito passando, como parâmetro para o comando, o nome do arquivo de teste alvo:
-
-  ```bash
-  npm test src/__tests__/requirement1.test.js
-  ```
-
-  ** :eyes: De olho na dica:** Desativando testes
-
-  Caso queira avaliar apenas um tópico do requisito, você pode usar o `.only` após o `it`. Com isso, será possível que apenas esse tópico rode localmente e seja avaliado.
-
-  ![image](it-only.png)
-  ![image](only-one-green.png)
-
-  :warning: **ATENÇÃO!** :warning: O avaliador automático não avalia, necessariamente, seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então não se assuste se isso acontecer, ok?
-</details>
-
-<details>
   <summary><strong>:convenience_store: Desenvolvimento </strong></summary><br />
 
   ### Documentação da API do Mercado Livre
 
-  Sua página _web_ irá consumir os dados da API do _Mercado Livre_ para realizar a busca de itens da sua loja online. Para realizar essas buscas, você precisará consultar os seguintes _endpoints_:
+  Esses foram os endpoints da API do Mercado Livre utilizados:
 
   - Para listar as categorias disponíveis:
     - Endpoint: https://api.mercadolibre.com/sites/MLB/categories
@@ -205,53 +84,13 @@ O atributo `data-testid="my-action"` servirá para que a React Testing Library (
   O retorno desse endpoint será algo como o exemplo [deste arquivo](exemplo-motorola.json).
 
   :eyes: **De olho na dica:** Se der erro de CORS aperte `ctrl + shift + r` no seu navegador.
-
-  ### Organização do grupo de trabalho
-
-Para maior eficiência de trabalho e para minimizar os conflitos de união de vários códigos é importante que o grupo se organize utilizando a metodologia _Kanban_.
-
-Você verá que os requisitos do projeto têm, além das observações técnicas e do que será avaliado, descrições tais quais se veriam em um projeto real. Como futura pessoa desenvolvedora é **importante** você ser capaz de ler e interpretar as descrições dos requisitos para transformá-las em produtos ou, se houver dúvida, **saber como resolver tais dúvidas!** 
-
-  ### Grupos de prioridade dos requisitos
-
-  Os requisitos estão organizados por prioridade. **Demandas de um mesmo grupo de prioridade podem ser realizadas em paralelo e são pré-requisito para as demandas do grupo de prioridade seguinte.** 
   
-  Por exemplo:
+  <summary><strong>:memo: Requisitos feitos nessa aplicação </strong></summary><br />
 
-  - **Requisitos 1 e 2:** Prioridade 0 (Devem ser feitos PRIMEIRO);
-  - **Requisitos 3 a 5:** Prioridade 1 (Devem ser feitos APÓS OS REQUISITO 1 E 2, mas podem ser feitos em paralelo);
-  - **Requisitos 5 a 7:** Prioridade 2 (Devem ser feitos APÓS OS REQUISITO 3 A 5, mas podem ser feitos em paralelo);
-  - Assim por diante.
 
-  Se você não seguir a ordem de prioridades terá mais **conflitos de merge** e **demandas concorrentes**, em que o avanço de uma depende, necessariamente, do avanço de outra.
 
-  ### Requisitos Bônus
 
-A capacidade de priorizar tarefas será constantemente requisitada em sua vida profissional como pessoa desenvolvedora, aproveite o exercício e priorize, neste projeto, as atividades essenciais para depois sequir para as extras (requisitos bônus).
-  
-</details>
-
-<details>
-  <summary><strong>🗣 Nos dê feedbacks sobre o projeto!</strong></summary><br />
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. 
-**Leva menos de 3 minutos!**
-
-[FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH)
-
-</details>
-
-<details>
-  <summary><strong>🗂 Compartilhe seu portfólio!</strong></summary><br />
-
-  Você sabia que o LinkedIn é a principal rede social profissional e compartilhar o seu aprendizado lá é muito importante para quem deseja construir uma carreira de sucesso? Compartilhe esse projeto no seu LinkedIn, marque o perfil da Trybe (@trybe) e mostre para a sua rede toda a sua evolução.
-</details>
-
-# Requisitos
-
-:warning: **ATENÇÃO!** Pull Requests com erros de linter não serão avaliados. :warning:
-
-:warning: **ATENÇÃO!** As imagens são meramente ilustrativas para visualizar o fluxo da aplicação, os nomes devem seguir os requisitos e não as imagens. :warning:
+ 
 
 ## 1. Implemente o módulo de acesso à api do Mercado Livre
 
