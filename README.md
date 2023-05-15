@@ -33,6 +33,8 @@
 </details>
 
   <summary><strong>:convenience_store: Desenvolvimento </strong></summary><br />
+  
+  <details>
 
   ### Documentação da API do Mercado Livre
 
@@ -84,6 +86,8 @@
   O retorno desse endpoint será algo como o exemplo [deste arquivo](exemplo-motorola.json).
 
   :eyes: **De olho na dica:** Se der erro de CORS aperte `ctrl + shift + r` no seu navegador.
+  
+  </details>
   
 
 
