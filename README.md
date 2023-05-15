@@ -31,10 +31,10 @@
 
   
 </details>
-
+<details>
   <summary><strong>:convenience_store: Desenvolvimento </strong></summary><br />
   
-  <details>
+  
 
   ### Documentação da API do Mercado Livre
 
