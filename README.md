@@ -85,11 +85,10 @@
 
   :eyes: **De olho na dica:** Se der erro de CORS aperte `ctrl + shift + r` no seu navegador.
   
-  <summary><strong>:memo: Requisitos feitos nessa aplicação </strong></summary><br />
 
 
 
-## 1. Requisitos feitos nessa aplicação
+## Requisitos feitos nessa aplicação:
 
  
 
