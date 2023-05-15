@@ -1,0 +1,90 @@
+.addToCartButton {
+  border-radius: 20px;
+}
+
+
+.cartButton {
+  border-radius: 20px;
+  margin-top: 15px;
+}
+
+.cartImage {
+  border-radius: 20px;
+  max-height: 30px;
+  max-width: 30px;
+}
+
+.categoriesButton {
+  width: 100%;
+}
+
+
+.divCategories {
+  display: flex;
+  flex-direction: column;
+}
+
+.divContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.divImage {
+  border: solid #0a2239 5px;
+}
+
+.divInputCart {
+  align-self: center;
+  background-color: #1d84b5;
+  border: #176087 solid 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 1200px;
+}
+
+.divMaior {
+  background-color: #53a2be;
+  display: flex;
+  flex-direction: row;
+}
+
+.divProducts {
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.input {
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 900px;
+}
+
+.product {
+  background-color: #1d84b5;
+  border: solid #0a2239 5px;
+  border-radius: 8px;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  width: 250px;
+}
+
+.searchButton {
+  border-radius: 20px;
+}
+
+button {
+  background-color: #176087;
+  color: antiquewhite;
+}
+
+
+p, h1 {
+  color: antiquewhite;
+}

@@ -1,0 +1,67 @@
+.detailsPage {
+  background-color: #53a2be;
+  display: flex;
+  flex-direction: column;
+}
+
+.divAvaliateCards {
+  background-color: #1d84b5;
+  border: solid #0a2239 5px;
+  margin-left: 2px;
+  margin-top: 5px;
+}
+
+.divProductDetailsOverflow {
+  max-height: 500px;
+  overflow: auto;
+}
+
+.divNameImage {
+  background-color: #1d84b5;
+  border: solid #0a2239 5px;
+  display: flex;
+  flex-direction: column;
+  max-height: 600px;
+  max-width: 400px;
+}
+
+.divProductDetails {
+  background-color: #1d84b5;
+  border: solid #0a2239 5px;
+  max-height: 600px;
+}
+
+.divProductSec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.formAvaliation {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 10px;
+
+}
+
+button {
+  border-radius: 20px;
+  max-height: 30px;
+  max-width: 170px;
+}
+
+img {
+  max-height: 600px;
+  max-width: 400px;
+}
+
+input {
+  max-width: 80%;
+}
+
+textarea {
+  margin-top: 5px;
+  max-width: 80%;
+}

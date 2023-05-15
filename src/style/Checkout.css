@@ -1,0 +1,36 @@
+.checkoutPage {
+  background-color: #53a2be;
+  display: flex;
+  height: 700px;
+  justify-content: center;
+}
+
+.divButtonFinish {
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+.divInputs {
+  align-content: space-around;
+  background-color: #1d84b5;
+  border: solid #0a2239 5px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.formCheckout {
+  align-items: center;
+  background-color: #1d84b5;
+  border: solid #0a2239 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+.inputs {
+  margin-bottom: 5px;
+  width: 80%;
+}
